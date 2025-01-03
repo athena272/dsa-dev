@@ -3,7 +3,7 @@ function extractEmailInformations(email: string) {
     const userName = parts[0]
     const domain = parts[1]
 
-    const isBrazilian = domain.endsWith('.br')
+    const isBrazilian = email.endsWith('.br')
 
     return { userName, domain, isBrazilian }
 }
