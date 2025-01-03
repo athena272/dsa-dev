@@ -3,7 +3,7 @@ function extractEmailInformations(email) {
     const parts = email.split("@");
     const userName = parts[0];
     const domain = parts[1];
-    const isBrazilian = domain.endsWith('.br');
+    const isBrazilian = email.endsWith('.br');
     return { userName, domain, isBrazilian };
 }
 let emailInfo1 = extractEmailInformations("joao.silva23@yahoo.com.br");
