@@ -1,12 +1,16 @@
 function alternativeVersion(cpf: string) {
-    let onlyCpfNumbers = ''
+    // let onlyCpfNumbers = ''
+    let onlyCpfNumbers: string[] = []
+
     for (let index = 0; index < cpf.length; index++) {
         if(cpf[index] >= '0' && cpf[index] <= '9') {
-            onlyCpfNumbers += cpf[index]
+            // onlyCpfNumbers += cpf[index]
+            onlyCpfNumbers.push(cpf[index])
         }
     }
 
-    return onlyCpfNumbers
+    // return onlyCpfNumbers
+    return onlyCpfNumbers.join('')
 }
 
 function removeCPFDigits(cpf: string) {
