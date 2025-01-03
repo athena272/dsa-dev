@@ -8,12 +8,12 @@ function extractEmailInformations(email: string) {
     return { userName, domain, isBrazilian }
 }
 
-const emailInfo1 = extractEmailInformations("joao.silva23@yahoo.com.br");
+let emailInfo1 = extractEmailInformations("joao.silva23@yahoo.com.br");
 console.log("Usuario:", emailInfo1.userName);
 console.log("Dominio:", emailInfo1.domain);
 console.log("Brasileiro:", emailInfo1.isBrazilian ? "sim" : "nao");
 console.log("🚀 ~ ------------------------------------------------------------------------ 🚀 ~")
-const emailInfo2 = extractEmailInformations("maria123@gmail.com");
+let emailInfo2 = extractEmailInformations("maria123@gmail.com");
 console.log("Usuario:", emailInfo2.userName);
 console.log("Dominio:", emailInfo2.domain);
 console.log("Brasileiro:", emailInfo2.isBrazilian ? "sim" : "nao");
