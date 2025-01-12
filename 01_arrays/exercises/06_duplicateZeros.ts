@@ -2,7 +2,7 @@ function duplicateZeros(array: number[]) {
     for (let i = 0; i < array.length - 1; i++) {
         if (array[i] === 0) {
             for (let j = array.length - 2; j > i; j--) {
-                array[j + 1] = array[j]
+                array[j + 1] = array[j] //shift right
             }
             array[i + 1] = array[i]
             i++
