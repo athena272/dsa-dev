@@ -9,3 +9,4 @@ function sumNaturals(num: number): number  {
 console.log("🚀 ~ sumNaturals(0):", sumNaturals(0))
 console.log("🚀 ~ sumNaturals(2):", sumNaturals(2))
 console.log("🚀 ~ sumNaturals(4):", sumNaturals(4))
+console.log("🚀 ~ sumNaturals(5):", sumNaturals(5))
