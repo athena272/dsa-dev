@@ -7,7 +7,7 @@ function fibonacci_tail_assistant(num: number, numSeq1: number, numSeq2: number)
     if (num === 0) {
         return numSeq1
     }
-
+ 
     if (num === 1) {
         return numSeq2
     }
